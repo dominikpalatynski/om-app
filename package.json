@@ -47,10 +47,10 @@
     "@ai-sdk/cohere": "^4.0.1",
     "@ai-sdk/google": "^4.0.2",
     "@ai-sdk/openai": "^4.0.50",
-    "@mikro-orm/core": "^7.1.14",
-    "@mikro-orm/decorators": "^7.1.14",
-    "@mikro-orm/migrations": "^7.1.14",
-    "@mikro-orm/postgresql": "^7.1.14",
+    "@mikro-orm/core": "7.1.14",
+    "@mikro-orm/decorators": "7.1.14",
+    "@mikro-orm/migrations": "7.1.14",
+    "@mikro-orm/postgresql": "7.1.14",
     "@modelcontextprotocol/sdk": "^1.29.0",
     "@open-mercato/ai-assistant": "0.9.0",
     "@open-mercato/cache": "0.9.0",
@@ -164,6 +164,11 @@
     "ioredis": "^6.0.0"
   },
   "resolutions": {
+    "@mikro-orm/core": "7.1.14",
+    "@mikro-orm/decorators": "7.1.14",
+    "@mikro-orm/migrations": "7.1.14",
+    "@mikro-orm/postgresql": "7.1.14",
+    "@mikro-orm/sql": "7.1.14",
     "lodash": "4.18.1",
     "lodash-es": "4.18.1",
     "zod": "4.4.3"
